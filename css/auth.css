@@ -1,0 +1,58 @@
+html {height:100%}
+
+body {height:100%; margin:0; padding:0; font:18px/18px "NissanAGRegular", sans-serif; color:#727272; background:#fff}
+
+a {color:#c30b29; outline:none}
+
+img {border:none}
+
+.wrapper {width:100%; min-height:100%; position:relative; overflow:hidden; background:url(../images/registration-bg.jpg) no-repeat center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover}
+.wrapper-inner {width:436px; margin:0 auto; padding:180px 10px}
+
+.auth-title {font:24px/24px "NissanAGBold", sans-serif; text-transform:uppercase; color:#c30b29; padding:0 0 51px 0}
+
+form {margin:0; padding:0}
+
+.label {font:17px/22px "NissanAGBold", sans-serif; text-transform:uppercase; padding:0 0 6px 0}
+
+.input {position:relative; padding:0 0 16px 0}
+.input input {border:1px solid #d1d1d1; background:#e6e6e6; vertical-align:top; box-sizing:border-box; margin:0; padding:14px; outline:none; width:100%; height:54px; color:#9c9c9c; font:18px/24px "NissanAGLight", sans-serif; -webkit-appearance:none; border-radius:0}
+.input input:focus {border-color:#cecece; background:#cecece; color:#727272}
+
+.submit {padding:17px 0 0 0}
+.submit input {vertical-align:top; border:none; background:#c30b29; color:#fff; text-transform:uppercase; margin:0; padding:0; outline:none; width:100%; height:54px; font:19px/54px "NissanAGBold", sans-serif; -webkit-appearance:none; cursor:pointer; border-radius:0}
+
+.forgot {padding:21px 0 0 0}
+
+.text-error {font-size:16px; color:#c30b29; padding:0 0 20px 0}
+
+@media (max-width:1000px) {
+    .wrapper {background-image:url(../images/registration-bg-tablet.jpg)}
+    .wrapper-inner {width:330px}
+
+    .label {font-size:14px}
+
+    .submit input {font-size:17px}
+
+    .text-error {font-size:13px; line-height:15px}
+}
+
+@media (max-width:700px) {
+    body {font-size:13px}
+
+    .wrapper {background-image:url(../images/registration-bg-mobile.jpg)}
+    .wrapper-inner {width:270px; padding:85px 0}
+
+    .auth-title {font-size:18px; padding:0 0 31px 0}
+
+    .label {font-size:12px}
+
+    .input {padding:0 0 10px 0}
+    .input input {font:12px/24px "NissanAGBold", sans-serif; height:40px; padding:6px 8px}
+
+    .submit input {font-size:13px; height:40px; line-height:40px}
+
+    .forgot {padding:13px 0 0 0}
+
+    .text-error {font-size:11px; line-height:15px; padding:0 0 5px 0}
+}
