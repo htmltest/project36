@@ -46,6 +46,11 @@
             });
         }
 
+        $.extend($.validator.messages, {
+            required: 'Не введен текст',
+            email: 'Введен некорректный e-mail'
+        });
+
         $('form').validate({
             rules: {
                 repassword: {
