@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Nissan</title>
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="stylesheet" href="css/registration.css" />
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/device.min.js"></script>
+        <script src="js/registration.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+                <form action="#" method="post">
+                    <div class="registration-title">Регистрация</div>
+
+                    <!-- cols -->
+                    <div class="cols">
+                        <!-- col -->
+                        <div class="col">
+                            <div class="label">Пожалуйста выберите обращение<span>*</span></div>
+
+                            <div class="radio">
+                                <div class="radio-item"><span><input type="radio" name="salutation" value="1" checked="checked" /></span>Господин</div>
+                                <div class="radio-item"><span><input type="radio" name="salutation" value="2" /></span>Госпожа</div>
+                            </div>
+
+                            <div class="label no-mobile">фамилия<span>*</span></div>
+                            <div class="input"><input type="text" name="lastname" value="" class="required" /><span>фамилия<em>*</em></span></div>
+
+                            <div class="label no-mobile">имя<span>*</span></div>
+                            <div class="input"><input type="text" name="firstname" value="" class="required" /><span>имя<em>*</em></span></div>
+
+                            <div class="label no-mobile">отчество</div>
+                            <div class="input"><input type="text" name="middlename" value="" /><span>отчество</span></div>
+
+                            <div class="label no-mobile">email<span>*</span></div>
+                            <div class="input"><input type="text" name="email" value="" class="required email" /><span>email<em>*</em></span></div>
+
+                            <div class="hint no-mobile"><span>*</span>Поля обязательные для заполнения</div>
+                        </div>
+                        <!-- col END -->
+
+                        <!-- col -->
+                        <div class="col">
+                            <div class="label">выберите тип телефона<span>*</span></div>
+
+                            <div class="radio">
+                                <div class="radio-item"><span><input type="radio" name="phonetype" value="1" checked="checked" /></span>Мобильный</div>
+                                <div class="radio-item"><span><input type="radio" name="phonetype" value="2" /></span>Рабочий</div>
+                                <div class="radio-item"><span><input type="radio" name="phonetype" value="3" /></span>Домашний</div>
+                            </div>
+
+                            <div class="label no-mobile">телефон<span>*</span></div>
+                            <div class="input"><input type="text" name="phone" value="" class="required" /><span>телефон<em>*</em></span></div>
+
+                            <div class="label no-mobile">пароль<span>*</span></div>
+                            <div class="input"><input type="password" name="password" id="password" value="" class="required" /><span>пароль<em>*</em></span></div>
+
+                            <div class="label no-mobile">повторить пароль<span>*</span></div>
+                            <div class="input"><input type="password" name="repassword" value="" class="required" /><span>повторить пароль<em>*</em></span></div>
+
+                            <div class="hint on-mobile"><span>*</span>Поля обязательные для заполнения</div>
+
+                            <div class="checkbox">
+                                <span><input type="checkbox" name="rules" checked="checked" /></span>
+                                <a href="#">Я согласен с правилами конкурса<br />и на обработку моих данных</a>
+                            </div>
+
+                            <div class="submit"><input type="submit" value="зарегистрироваться" /></div>
+                        </div>
+                        <!-- col END -->
+                    </div>
+                    <!-- cols END -->
+                </form>
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+    </body>
+</html>
