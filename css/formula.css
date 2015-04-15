@@ -26,7 +26,7 @@ img {border:none}
 .top-link:hover:after {border-bottom-color:#6f6f6f}
 .top-link span {display:block; position:absolute; z-index:2; width:11px; height:10px; background:url(../images/formula-top-link.png); right:-14px; top:12px}
 
-.next {width:259px; height:38px; position:absolute; left:16px; bottom:-38px; background:url(../images/formula-next.png); cursor:default; line-height:38px; text-align:center; text-transform:uppercase}
+.next {width:259px; height:38px; position:absolute; left:16px; bottom:-38px; background:url(../images/formula-next.png) no-repeat; cursor:default; line-height:38px; text-align:center; text-transform:uppercase}
 .next span {color:#dbdbdb; position:relative; opacity:.4; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40)}
 .next em {display:inline-block; vertical-align:middle; width:8px; height:13px; background:url(../images/formula-next-arrow.png); margin:-2px 0 0 5px}
 .next.active {cursor:pointer}
@@ -117,7 +117,7 @@ input::-ms-clear {display:none}
     .top-link:after {right:-35px; width:11px; border-bottom-width:27px; border-left-width:14px; border-right-width:24px}
     .top-link span {width:10px; height:9px; background:url(../images/formula-top-link-tablet.png); right:-12px; top:10px}
 
-    .next {width:221px; height:32px; left:13px; bottom:-32px; background:url(../images/formula-next-tablet.png); font-size:14px; line-height:32px}
+    .next {width:221px; height:32px; left:13px; bottom:-32px; background:url(../images/formula-next-tablet.png) no-repeat; font-size:14px; line-height:32px}
 
     .step-1-content {width:631px; height:84px; background:url(../images/formula-step-1-tablet.png)}
     .step-1-input {margin:20px 0 0 78px}
@@ -188,7 +188,7 @@ input::-ms-clear {display:none}
 
     .top-link {display:none}
 
-    .next {width:165px; height:25px; left:0; bottom:-25px; background:url(../images/formula-next-mobile.png); font-size:11px; line-height:25px}
+    .next {width:165px; height:25px; left:0; bottom:-25px; background:url(../images/formula-next-mobile.png) no-repeat; font-size:11px; line-height:25px}
     .next em {width:7px; height:9px; background:url(../images/formula-next-arrow-mobile.png); margin-top:-4px}
     .next.active em {background-position:left -9px}
 
