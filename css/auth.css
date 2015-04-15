@@ -22,7 +22,11 @@ form {margin:0; padding:0}
 .submit {padding:17px 0 0 0}
 .submit input {vertical-align:top; border:none; background:#c30b29; color:#fff; text-transform:uppercase; margin:0; padding:0; outline:none; width:100%; height:54px; font:19px/54px "NissanAGBold", sans-serif; -webkit-appearance:none; cursor:pointer; border-radius:0}
 
-.forgot {padding:21px 0 0 0}
+.links {padding:21px 0 0 0}
+.links:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.forgot {float:left}
+.reg {float:right}
+.reg a {text-decoration:none}
 
 .text-error {font-size:16px; color:#c30b29; padding:0 0 20px 0}
 
@@ -52,7 +56,7 @@ form {margin:0; padding:0}
 
     .submit input {font-size:13px; height:40px; line-height:40px}
 
-    .forgot {padding:13px 0 0 0}
+    .links {padding:13px 0 0 0}
 
     .text-error {font-size:11px; line-height:15px; padding:0 0 5px 0}
 }
