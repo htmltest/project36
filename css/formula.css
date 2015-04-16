@@ -99,10 +99,16 @@ img {border:none}
 
 .step-5 {position:absolute; left:0; top:50%; width:100%}
 .step-5-content {max-width:980px; margin:0 auto}
-.step-5-content-text {float:right; width:335px; font:36px/43px NissanAGLight, sans-serif; text-transform:uppercase}
+.step-5-content-text {float:right; width:335px; font:36px/43px NissanAGLight, sans-serif; text-transform:uppercase; position:relative}
 .step-5-content-text strong {font:36px/43px NissanAGBold, sans-serif; color:#c30b29}
 
 input::-ms-clear {display:none}
+
+.about-logout {position:absolute; right:14px; top:-63px; font:14px/16px NissanAGLight, sans-serif; text-transform:none}
+.about-logout a {display:inline-block; color:#fff; position:relative; text-decoration:none}
+.about-logout a:after {content:""; display:block; width:7px; height:8px; background:url(../images/logout-2.png); position:absolute; right:-14px; top:5px}
+.about-logout a:hover {text-decoration:underline}
+.body-step-4 .about-logout {top:-37px}
 
 @media (max-width:900px) {
     body {background-image:url(../images/formula-bg-tablet.jpg)}
