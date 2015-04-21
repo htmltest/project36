@@ -104,11 +104,11 @@ img {border:none}
 
 input::-ms-clear {display:none}
 
-.about-logout {position:absolute; right:14px; top:-63px; font:14px/16px NissanAGLight, sans-serif; text-transform:none}
+.about-logout {position:absolute; right:14px; top:-93px; font:14px/16px NissanAGLight, sans-serif; text-transform:none}
 .about-logout a {display:inline-block; color:#fff; position:relative; text-decoration:none}
 .about-logout a:after {content:""; display:block; width:7px; height:8px; background:url(../images/logout-2.png); position:absolute; right:-14px; top:5px}
 .about-logout a:hover {text-decoration:underline}
-.body-step-4 .about-logout {top:-37px}
+.body-step-4 .about-logout {top:-97px}
 
 @media (max-width:900px) {
     body {background-image:url(../images/formula-bg-tablet.jpg)}
@@ -221,7 +221,7 @@ input::-ms-clear {display:none}
     .step-2-text-3,
     .step-2-text-4 {display:none}
 
-    .step-2-hint {display:none; position:absolute; left:50%; margin-left:-160px; top:-73px; width:320px}
+    .step-2-hint {display:block; position:absolute; left:50%; margin-left:-160px; top:-73px; width:320px}
     .step-2-hint-content {display:table-cell; height:73px; padding:0 25px; vertical-align:middle; margin:0; background:url(../images/formula-step-2-hint-mobile.png); line-height:12px; font-size:14px; color:#626262}
     .step-2-hint-content a {color:#626262}
 
@@ -237,7 +237,7 @@ input::-ms-clear {display:none}
     .step-3-text-3,
     .step-3-text-4 {display:none}
 
-    .step-3-hint {display:none; position:absolute; left:50%; margin-left:-160px; top:-73px; width:320px}
+    .step-3-hint {display:block; position:absolute; left:50%; margin-left:-160px; top:-73px; width:320px}
     .step-3-hint-content {display:table-cell; height:73px; padding:0 25px; vertical-align:middle; margin:0; background:url(../images/formula-step-2-hint-mobile.png); line-height:12px; font-size:14px; color:#626262}
     .step-3-hint-content a {color:#626262}
 
