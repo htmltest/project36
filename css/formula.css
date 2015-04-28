@@ -36,12 +36,12 @@ img {border:none}
 .next-btn {position:absolute; left:-9999px; top:-9999px}
 
 .step-1 {position:relative}
-.step-1-content {position:relative; width:738px; height:100px; background:url(../images/formula-step-1.png); text-align:left}
-.step-1-input {float:left; margin:29px 0 0 94px; position:relative}
+.step-1-content {position:relative; width:738px; height:100px; background:url(../images/formula-step-1.png); text-align:center}
+.step-1-input {display:inline-block; vertical-align:top; margin:29px 0 0 0; position:relative; text-align:left}
 .step-1-input span {display:none; position:absolute; left:0; top:0; font:24px/44px NissanAGLight, sans-serif; opacity:.4; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); white-space:nowrap}
 .step-1-input input {position:relative; vertical-align:top; color:#fff; text-align:left; text-transform:uppercase; font:30px/44px NissanAGBold, sans-serif; margin:0; padding:0; outline:none; border:none; background:url(../images/blank.gif); width:235px; height:44px; -webkit-appearance:none}
-.step-1-text-1 {float:left; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 0}
-.step-1-text-2 {float:left; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 5px}
+.step-1-text-1 {display:inline-block; vertical-align:top; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 0}
+.step-1-text-2 {display:inline-block; vertical-align:top; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 0}
 .step-1-text-2 strong {font:30px/44px NissanAGBold, sans-serif}
 .step-1-text-2 span {font-size:15px; vertical-align:top; top:-13px; position:relative}
 
@@ -49,15 +49,15 @@ img {border:none}
 .step-1-hint-content {position:relative; width:604px; padding:0 0 0 20px; height:100px; background:url(../images/formula-step-1-hint.png); font:30px/100px NissanAGBold, sans-serif}
 
 .step-2 {position:relative}
-.step-2-content {position:relative; width:821px; height:100px; background:url(../images/formula-step-2.png); text-align:left}
-.step-2-text-1 {float:left; font:30px/44px NissanAGBold, sans-serif; margin:29px 0 0 47px; position:relative; white-space:nowrap; text-overflow:ellipsis; max-width:150px; overflow:hidden}
-.step-2-text-2 {float:left; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 5px}
-.step-2-text-3 {float:left; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 10px}
-.step-2-input {float:left; margin:29px 0 0 0; position:relative}
+.step-2-content {position:relative; width:821px; height:100px; background:url(../images/formula-step-2.png); text-align:center}
+.step-2-text-1 {display:inline-block; vertical-align:top; font:30px/44px NissanAGBold, sans-serif; margin:29px 0 0 0; position:relative; white-space:nowrap; text-overflow:ellipsis; max-width:150px; overflow:hidden}
+.step-2-text-2 {display:inline-block; vertical-align:top; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 5px}
+.step-2-text-3 {display:inline-block; vertical-align:top; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 10px}
+.step-2-input {display:inline-block; vertical-align:top; margin:29px 0 0 0; position:relative; text-align:left}
 .step-2-input span {display:none; position:absolute; left:0; top:0; font:30px/44px NissanAGLight, sans-serif; opacity:.4; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); white-space:nowrap}
 .step-2-input span small {font-size:15px; vertical-align:top; top:-13px; position:relative}
 .step-2-input input {position:relative; vertical-align:top; color:#fff; text-align:left; text-transform:uppercase; font:30px/44px NissanAGBold, sans-serif; margin:0; padding:0; outline:none; border:none; background:url(../images/blank.gif); width:312px; height:44px; -webkit-appearance:none}
-.step-2-text-4 {float:left; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 5px}
+.step-2-text-4 {display:inline-block; vertical-align:top; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 0}
 .step-2-text-4 strong {font:30px/44px NissanAGBold, sans-serif}
 .step-2-text-4 span {font-size:15px; vertical-align:top; top:-13px; position:relative}
 
@@ -67,15 +67,15 @@ img {border:none}
 .step-2 .next {left:18px}
 
 .step-3 {position:relative}
-.step-3-content {position:relative; width:863px; height:100px; background:url(../images/formula-step-3.png); text-align:left}
-.step-3-text-1 {float:left; font:30px/44px NissanAGBold, sans-serif; margin:29px 0 0 40px; position:relative; white-space:nowrap; text-overflow:ellipsis; max-width:150px; overflow:hidden}
-.step-3-text-2 {float:left; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 5px}
-.step-3-text-3 {float:left; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 10px}
-.step-3-input {float:left; margin:29px 0 0 0; position:relative}
+.step-3-content {position:relative; width:863px; height:100px; background:url(../images/formula-step-3.png); text-align:center}
+.step-3-text-1 {display:inline-block; vertical-align:top; font:30px/44px NissanAGBold, sans-serif; margin:29px 0 0 0; position:relative; white-space:nowrap; text-overflow:ellipsis; max-width:150px; overflow:hidden}
+.step-3-text-2 {display:inline-block; vertical-align:top; font:48px/44px NissanAGLight, sans-serif; margin:42px 0 0 0}
+.step-3-text-3 {display:inline-block; vertical-align:top; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 0}
+.step-3-input {display:inline-block; vertical-align:top; margin:29px 0 0 0; position:relative; text-align:left}
 .step-3-input span {display:none; position:absolute; left:0; top:0; font:30px/44px NissanAGLight, sans-serif; opacity:.4; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); white-space:nowrap}
 .step-3-input span small {font-size:15px; vertical-align:top; top:-13px; position:relative}
 .step-3-input input {position:relative; vertical-align:top; color:#fff; text-align:left; text-transform:uppercase; font:30px/44px NissanAGBold, sans-serif; margin:0; padding:0; outline:none; border:none; background:url(../images/blank.gif); width:300px; height:44px; -webkit-appearance:none}
-.step-3-text-4 {float:left; font:30px/44px NissanAGRegular, sans-serif; margin:29px 5px 0 5px}
+.step-3-text-4 {display:inline-block; vertical-align:top; font:30px/44px NissanAGRegular, sans-serif; margin:29px 0 0 0}
 .step-3-text-4 strong {font:30px/44px NissanAGBold, sans-serif}
 .step-3-text-4-1 {display:inline-block; vertical-align:middle; position:relative; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; max-width:80px}
 .step-3-text-4 span {font-size:15px; vertical-align:top; top:-13px; position:relative}
@@ -129,23 +129,23 @@ input::-ms-clear {display:none}
     .next {width:221px; height:32px; left:13px; bottom:-32px; background:url(../images/formula-next-tablet.png) no-repeat; font-size:14px; line-height:32px}
 
     .step-1-content {width:631px; height:84px; background:url(../images/formula-step-1-tablet.png)}
-    .step-1-input {margin:20px 0 0 78px}
+    .step-1-input {margin:20px 0 0 0}
     .step-1-text-1 {font-size:40px; margin:33px 0 0 0}
-    .step-1-text-2 {font-size:25px; margin:20px 0 0 5px}
+    .step-1-text-2 {font-size:25px; margin:20px 0 0 0}
     .step-1-text-2 strong {font-size:25px}
     .step-1-text-2 span {font-size:12px}
 
     .step-1-hint-content {width:632px; height:84px; padding:0; background:url(../images/formula-step-1-hint-tablet.png); line-height:84px}
 
     .step-2-content {width:717px; height:84px; background:url(../images/formula-step-2-tablet.png) no-repeat left bottom}
-    .step-2-text-1 {font-size:25px; margin:20px 0 0 52px}
-    .step-2-text-2 {font-size:40px; margin:33px 0 0 5px}
-    .step-2-text-3 {font-size:25px; margin:20px 0 0 10px}
-    .step-2-input {float:left; margin:20px 0 0 0; position:relative}
+    .step-2-text-1 {font-size:25px; margin:20px 0 0 0}
+    .step-2-text-2 {font-size:40px; margin:33px 0 0 0}
+    .step-2-text-3 {font-size:25px; margin:20px 0 0 0}
+    .step-2-input {margin:20px 0 0 0; position:relative}
     .step-2-input span {font-size:25px}
     .step-2-input span small {font-size:12px}
     .step-2-input input {font-size:25px; width:265px}
-    .step-2-text-4 {font-size:25px; margin:20px 0 0 5px}
+    .step-2-text-4 {font-size:25px; margin:20px 0 0 0}
     .step-2-text-4 strong {font-size:25px}
     .step-2-text-4 span {font-size:12px}
 
@@ -154,14 +154,14 @@ input::-ms-clear {display:none}
     .step-2 .next {left:15px}
 
     .step-3-content {width:732px; height:84px; background:url(../images/formula-step-3-tablet.png)}
-    .step-3-text-1 {font-size:25px; margin:20px 0 0 45px}
-    .step-3-text-2 {font-size:40px; margin:33px 0 0 5px}
-    .step-3-text-3 {font-size:25px; margin:20px 0 0 10px}
+    .step-3-text-1 {font-size:25px; margin:20px 0 0 0}
+    .step-3-text-2 {font-size:40px; margin:33px 0 0 0}
+    .step-3-text-3 {font-size:25px; margin:20px 0 0 0}
     .step-3-input {margin:20px 0 0 0}
     .step-3-input span {font-size:25px}
     .step-3-input span small {font-size:12px}
     .step-3-input input {font-size:25px; width:250px}
-    .step-3-text-4 {font-size:25px; margin:20px 5px 0 5px}
+    .step-3-text-4 {font-size:25px; margin:20px 5px 0 0}
     .step-3-text-4 strong {font-size:25px}
     .step-3-text-4 span {font-size:12px}
 
@@ -202,7 +202,7 @@ input::-ms-clear {display:none}
     .next.active em {background-position:left -9px}
 
     .step-1-content {width:320px; height:70px; background:url(../images/formula-step-1-mobile.png)}
-    .step-1-input {margin:11px 0 0 73px}
+    .step-1-input {margin:11px 0 0 0}
     .step-1-input span {font-size:19px}
     .step-1-input input {font-size:19px; width:194px}
     .step-1-text-1,
@@ -212,7 +212,7 @@ input::-ms-clear {display:none}
     .step-1-hint-content {width:117px; height:29px; padding:0; margin:0 auto; background:url(../images/formula-step-1-hint-mobile.png); line-height:29px; font-size:18px}
 
     .step-2-content {width:320px; height:70px; background:url(../images/formula-step-1-mobile.png)}
-    .step-2-input {margin:11px 0 0 73px}
+    .step-2-input {margin:11px 0 0 0}
     .step-2-input span {font-size:19px}
     .step-2-input span small {display:none}
     .step-2-input input {font-size:19px; width:194px}
@@ -228,7 +228,7 @@ input::-ms-clear {display:none}
     .step-2 .next {left:0}
 
     .step-3-content {width:320px; height:70px; background:url(../images/formula-step-1-mobile.png)}
-    .step-3-input {margin:11px 0 0 73px}
+    .step-3-input {margin:11px 0 0 0}
     .step-3-input span {font-size:19px}
     .step-3-input span small {display:none}
     .step-3-input input {font-size:19px; width:194px}
